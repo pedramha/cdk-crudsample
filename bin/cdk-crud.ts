@@ -5,5 +5,5 @@ import { CdkCrudStack } from '../lib/cdk-crud-stack';
 
 const app = new cdk.App();
 new CdkCrudStack(app, 'CdkCrudStack', {
-  env: { account: '833915806704', region: 'eu-central-1' },
+  env: { account: 'accountId', region: 'eu-central-1' },
 });
